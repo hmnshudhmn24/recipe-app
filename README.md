@@ -15,8 +15,3 @@ A simple **Recipe App** that allows users to browse and view different recipes.
 ## How to Use
 1. Open `index.html` in a web browser.
 2. Click on a recipe name to view details.
-
-### Author
-Created by **Zyler**
-
-Enjoy cooking! 🍽️
