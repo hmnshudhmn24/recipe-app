@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Recipe App</h1>
+    </header>
+    <main>
+        <section id="recipe-list">
+            <h2>Recipes</h2>
+            <ul>
+                <li onclick="showRecipe('Spaghetti Bolognese')">Spaghetti Bolognese</li>
+                <li onclick="showRecipe('Chicken Curry')">Chicken Curry</li>
+                <li onclick="showRecipe('Vegetable Stir Fry')">Vegetable Stir Fry</li>
+            </ul>
+        </section>
+        <section id="recipe-details">
+            <h2>Recipe Details</h2>
+            <p id="recipe-content">Select a recipe to view details.</p>
+        </section>
+    </main>
+</body>
+</html>
